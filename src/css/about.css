@@ -1,0 +1,218 @@
+#content{
+    width: 100%;
+    height: 642px;
+    background: white;
+}
+#content .wrapper{
+    width: 996px;
+    height: 642px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 36px;
+}
+#content ul{
+    display: flex;
+    justify-content: space-around;
+}
+#content .wrapper .content_top{
+    width: 996px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d5d5d5;
+}
+#content .content_top .con_left{
+    width: 336px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#content .con_left a{
+    font-size: 16px;
+    color:#333333;
+    box-sizing: border-box;
+    padding-left: 8px;
+    align-self: flex-end;
+}
+#content .con_left_top li{
+    width: 104px;
+    height: 20px;
+    display:flex;
+}
+#content .con_left_top li::before{
+    content:"";
+    width: 2px;
+    height: 10px;
+    background: #999999;
+    display: block;
+    align-self: flex-end;
+}
+#content .con_left_bot li{
+    font-size: 12px;
+    width: 104px;
+    color:#999999;
+}
+#content .content_top .con_right{
+    width: 228px;
+    height: 20px;
+    padding-top: 20px;
+    display: flex;
+}
+
+#content .con_right a{
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 12px;
+    color:#333333;
+}
+
+#content .con_right a:hover{
+    color: #a0a0a0;
+}
+#content .content_bot{
+    display: none;
+}
+#content .wrapper .active{
+    width: 996px;
+    height: 296px;
+    margin-top: 22px;
+    display: none;
+}
+#content .wrapper .active{
+    display: block;
+}
+#content .active p{
+    font-size: 14px;
+    color: #666666;
+    text-indent: 2em;
+    line-height: 22px;
+}
+#content .active .first_p{
+    margin: 25px 0 28px 0;
+}
+#content  .con_bot1{
+    width: 996px;
+    height:108px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 25px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+#content .con_bot1 .datatime{
+    width: 70px;
+    height:58px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: 1px solid #f2f2f2;
+}
+.con_bot1 .datatime span{
+    font-size: 36px;
+    color: #866961;
+}
+.con_bot1 .datatime h4{
+    font-size: 10px;
+    color: #999999;
+}
+#content .con_bot1 .con_bot1_news{
+    width: 900px;
+    height:58px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#content .con_bot1_news h3{
+    font-size: 16px;
+    color: #866961;
+}
+#content .con_bot1_news p{
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#content .con_bot2_left{
+    width: 45px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 25px;
+    float: left;
+}
+#content .con_bot2_left .first_h2::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background: #d5d5d5;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#content .con_bot2_left .first_h2::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 112px;
+    background: #d5d5d5;
+    margin: auto;
+    margin-top: 5px;
+}
+#content .con_bot2_left .last_h2::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 50px;
+    background: #d5d5d5;
+    margin: auto;
+    margin-bottom: 5px;
+}
+#content .con_bot2_left .last_h2::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 125px;
+    background: #d5d5d5;
+    margin: auto;
+    margin-top: 5px;    
+}
+#content .con_bot2_left h2{
+    font-size: 18px;
+    color: #999999;
+    margin: 5px 0;
+}
+#content .con_bot2_right{
+    width: 866px;
+    height: 500px;
+    float: left;
+}
+#content .con_bot2_right1{
+    display: flex;
+    width: 866px;
+    height: 46px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    border-bottom: 1px solid #f2f2f2;
+}
+#content .con_bot2_right1 h3,
+#content .con_bot2_right1 p{
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#content .con_bot2_right1 h3{
+    margin: 0 20px 0 60px;
+}
+#content .con_bot2_right1 p:hover{
+    color:#866961;
+}
+#content .con_bot2_right1 h3:hover{
+    color: #866961;
+}
+
+
