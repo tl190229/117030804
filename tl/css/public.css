@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 1100px;
+    height: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+tr{
+    display: flex;
+}
+td{
+    border: 1px solid #000;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    resize: none;
+}
+.aa{
+    margin: 0 2px;
+    float: right;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.none{
+    display: none;
+}

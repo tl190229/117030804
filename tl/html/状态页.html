@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2></h2>
+    <h3>5秒后返回首页</h3>
+    <script>var h2=document.getElementsByTagName("h2")[0];
+    var h3=document.getElementsByTagName("h3")[0];
+    h2.innerHTML=sessionStorage.zhuangtai;
+    setInterval(()=>{
+        var a=parseInt(h3.innerHTML);
+        a--;
+        h3.innerHTML=a+"秒后返回首页";
+        if(a==0){
+            location='../html/index.html';
+        }
+    },1000)
+    </script>
+</body>
+</html>
